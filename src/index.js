@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import HookApp from './HookApp';
 
 ReactDOM.render(
-    <HookApp />,
+  <HookApp />,
   document.getElementById('root')
 );
