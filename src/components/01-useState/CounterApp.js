@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './CounterApp.css'
 
 const CounterApp = () => {
   const [state, setState] = useState({
@@ -12,7 +11,7 @@ const CounterApp = () => {
   const { counter1, counter2 } = state
 
   return (
-    <div className="counter-container">
+    <div className="div counter-container">
       <h3>Counter1 {counter1}</h3>
       <h3>Counter2 {counter2}</h3>
       <hr />

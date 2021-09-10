@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react'
 import useForm from '../../hooks/useForm';
 
-import './effects.css'
-
 const FormWithCustomHook = () => {
   const [formState, handleInputChange] = useForm({
     email: '',
@@ -17,7 +15,7 @@ const FormWithCustomHook = () => {
   }, [email])
 
   return (
-    <div className="simple-form">
+    <div className="div form-container">
       <h3>FormWithCustomHook</h3>
       <hr />
 

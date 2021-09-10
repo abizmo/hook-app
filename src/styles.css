@@ -1,0 +1,22 @@
+.div {
+  border-width: 1px;
+  border-style: solid;
+  padding: 24px;
+  margin-bottom: 8px;
+}
+
+.counter-container {
+  border-color: hotpink;
+}
+
+.form-container {
+  border-color: indigo;
+}
+
+.hooks-container {
+  border-color: burlywood;
+}
+
+.ref-container {
+  border-color: chocolate;
+}

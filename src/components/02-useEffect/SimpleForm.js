@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 
 import Message from './Message';
 
-import './effects.css'
-
 const SimpleForm = () => {
   const [formState, setFormState] = useState({
     name: '',
@@ -24,7 +22,7 @@ const SimpleForm = () => {
   }
 
   return (
-    <div className="simple-form">
+    <div className="div form-container">
       <h3>useEffect</h3>
       <hr />
 
