@@ -7,12 +7,14 @@ import SimpleForm from './components/02-useEffect/SimpleForm'
 import MultiplesHooks from './components/03-examples/MultiplesHooks'
 import FocusScreen from './components/04-useRef/FocusScreen'
 import RealExampleRef from './components/04-useRef/RealExampleRef'
+import Layout from './components/05-useLayoutEffect/Layout'
 
 import './styles.css'
 
 const HookApp = () => {
   return (
     <>
+      <Layout />
       <RealExampleRef />
       <FocusScreen />
       <MultiplesHooks />

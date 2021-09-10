@@ -20,3 +20,11 @@
 .ref-container {
   border-color: chocolate;
 }
+
+.layout-container {
+  border-color: aqua;
+}
+
+.layout-container > .blockquote {
+  display: flex;
+}
