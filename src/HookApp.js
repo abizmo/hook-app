@@ -8,12 +8,16 @@ import MultiplesHooks from './components/03-examples/MultiplesHooks'
 import FocusScreen from './components/04-useRef/FocusScreen'
 import RealExampleRef from './components/04-useRef/RealExampleRef'
 import Layout from './components/05-useLayoutEffect/Layout'
+import MemoHook from './components/06-memos/MemoHook'
+import Memorize from './components/06-memos/Memorize'
 
 import './styles.css'
 
 const HookApp = () => {
   return (
     <>
+      <MemoHook />
+      <Memorize />
       <Layout />
       <RealExampleRef />
       <FocusScreen />

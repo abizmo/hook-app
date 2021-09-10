@@ -28,3 +28,7 @@
 .layout-container > .blockquote {
   display: flex;
 }
+
+.memo-container {
+  border-color: wheat;
+}
