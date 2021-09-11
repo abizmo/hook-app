@@ -18,4 +18,14 @@ Estos son los Hooks relativamente simples, aún hay mas que explicaremos más ad
 
 Adicionalmente estaremos dejando las bases para lo que será una sección de pruebas sumamente interesante después.
 
+## Sección 10: Profundizando Hooks - useReducer
+### ¿Qué veremos en esta sección?
+- useReducer
+- Reducers
+- Teoría de un reducer
+- Aplicación de TODOs
+- CRUD local
+
+Esta es una sección dedicada a comprender el concepto de un Reducer, el cual es sumamente importante para poder entrar a Redux o bien usar el contextAPI fácilmente.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
