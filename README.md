@@ -28,4 +28,16 @@ Adicionalmente estaremos dejando las bases para lo que será una sección de pru
 
 Esta es una sección dedicada a comprender el concepto de un Reducer, el cual es sumamente importante para poder entrar a Redux o bien usar el contextAPI fácilmente.
 
+## Seccióón 11: Profundizando Hooks - useContext
+### ¿Qué veremos en esta sección?
+- Context
+- Provider
+- useContext
+- React Router
+- Links y NavLinks
+- CreateContext
+- SPA ( Single Page Application )
+
+El objetivo de la sección es principalmente aprender sobre el Context, el Router es un valor agregado que explotaremos mucho más en próximas secciones, pero al usar un Router, podemos explicar claramente el problema y necesidad del context.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
