@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RealExampleRef tests should render and match snapshot 1`] = `
+<div
+  className="div ref-container"
+>
+  <h3>
+    RealExampleRef
+  </h3>
+  <hr />
+  <button
+    className="btn btn-primary"
+    onClick={[Function]}
+  >
+    Show/Hide
+  </button>
+</div>
+`;
