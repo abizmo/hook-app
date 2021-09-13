@@ -8,6 +8,12 @@ describe('useForm tests', () => {
     password: '',
   }
   
+  test('should return default value equal to {}', () => {
+    const { result } = renderHook(() => useForm())
+
+    expect(result.current[0]).toStrictEqual({})
+  })
+  
   test('should return an array with initial values equals to props, and two functions', () => {
     const { result } = renderHook(() => useForm(initialState))
 

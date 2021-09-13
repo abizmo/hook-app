@@ -22,12 +22,12 @@ const useFetch = (url) => {
     })
     fetch(url)
       .then(res => res.json())
-      .then(data => isMounted && setState({
+      .then(data => isMounted.current && setState({
         data,
         error: null,
         loading: false,
       }))
-      .catch(error => isMounted && setState({
+      .catch(error => isMounted.current && setState({
         data: null,
         error,
         loading: false,
