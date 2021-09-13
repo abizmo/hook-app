@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hook App Tests should render and match to Snapshot 1`] = `
+<Fragment>
+  <button
+    className="btn btn-secondary"
+    onClick={[Function]}
+  >
+    ToggleTarea
+  </button>
+  <div>
+    <CallbackHook />
+    <Memorize />
+    <Layout />
+    <RealExampleRef />
+    <FocusScreen />
+    <MultiplesHooks />
+    <FormWithCustomHook />
+    <SimpleForm />
+    <CounterWithCustomHook />
+    <CounterApp />
+  </div>
+</Fragment>
+`;

@@ -28,7 +28,7 @@ Adicionalmente estaremos dejando las bases para lo que será una sección de pru
 
 Esta es una sección dedicada a comprender el concepto de un Reducer, el cual es sumamente importante para poder entrar a Redux o bien usar el contextAPI fácilmente.
 
-## Seccióón 11: Profundizando Hooks - useContext
+## Sección 11: Profundizando Hooks - useContext
 ### ¿Qué veremos en esta sección?
 - Context
 - Provider
@@ -39,5 +39,14 @@ Esta es una sección dedicada a comprender el concepto de un Reducer, el cual es
 - SPA ( Single Page Application )
 
 El objetivo de la sección es principalmente aprender sobre el Context, el Router es un valor agregado que explotaremos mucho más en próximas secciones, pero al usar un Router, podemos explicar claramente el problema y necesidad del context.
+
+## Sección 12: Pruebas unitarias y de integración - Hooks
+### ¿Qué veremos en esta sección?
+
+- Pruebas sobre Hooks y CustomHooks
+
+Ese es el tema principal, demostrar cómo podemos evaluar cada unos de los hooks aplicados anteriormente con sus casos reales de uso.
+
+Hay varios extras, como la prueba de un Reducer, que realmente no es nada complicado, también quiero aclarar qué nos toca evaluar a nosotros y qué no es responsabilidad nuestra.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
