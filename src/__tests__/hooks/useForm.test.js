@@ -1,14 +1,46 @@
+import { act, renderHook } from '@testing-library/react-hooks'
+
+import useForm from '../../hooks/useForm'
+
 describe('useForm tests', () => {
-  test.skip('should return an array with initial value equal to {}, and two functions', () => {
+  const initialState = {
+    name: '',
+    password: '',
+  }
+  
+  test('should return an array with initial values equals to props, and two functions', () => {
+    const { result } = renderHook(() => useForm(initialState))
+
+    expect(result.current[0]).toStrictEqual(initialState)
+    expect(result.current[1]).toBeInstanceOf(Function)
+    expect(result.current[2]).toBeInstanceOf(Function)
   })
   
-  test.skip('should return an array with initial values equals to props, and two functions', () => {
+  test('should modify input value', () => {
+    const { result } = renderHook(() => useForm(initialState))
+    const evt = { target: { 
+      name: 'password',
+      value: 'secret',
+    }}
+    act(() => result.current[1](evt))
+
+    expect(result.current[0]).toStrictEqual({
+      ...initialState,
+      password: 'secret'
+    })
   })
   
-  test.skip('should modify input value', () => {
+  test('should modify inputs to initial value', () => {
+    const { result } = renderHook(() => useForm(initialState))
+    const evt = { target: { 
+      name: 'password',
+      value: 'secret',
+    }}
+    act(() => {
+      result.current[1](evt)
+      result.current[2](evt)
+    })
+
+    expect(result.current[0]).toStrictEqual(initialState)
   })
-  
-  test.skip('should modify inputs to initial value', () => {
-  })
-  
 })
