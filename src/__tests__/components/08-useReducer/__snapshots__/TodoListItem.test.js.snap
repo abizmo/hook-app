@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoListItem tests should render and match snapshot 1`] = `
+<div
+  className="input-group mb-3"
+  key="1"
+>
+  <div
+    className="input-group-text"
+  >
+    <input
+      aria-label="Checkbox to mark following todo"
+      checked={true}
+      className="form-check-input mt-0"
+      onChange={[Function]}
+      type="checkbox"
+    />
+  </div>
+  <span
+    className="input-group-text bg-white flex-grow-1 text-decoration-line-through"
+  >
+    Comprar pan
+  </span>
+  <button
+    className="btn btn-outline-danger"
+    onClick={[Function]}
+    type="button"
+  >
+    Borrar
+  </button>
+</div>
+`;

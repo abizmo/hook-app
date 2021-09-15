@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoAddForm tests should render and match snapshot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <div
+    className="input-group mb-3"
+  >
+    <input
+      aria-describedby="button-add"
+      aria-label="New Todo"
+      className="form-control"
+      name="todo"
+      onChange={[Function]}
+      placeholder="New Todo"
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-primary"
+      id="button-add"
+      type="submit"
+    >
+      Add
+    </button>
+  </div>
+</form>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList tests should render and match snapshot 1`] = `
+<ul
+  className="list-group"
+>
+  <TodoListItem
+    done={true}
+    id={1}
+    key="1"
+    onDeleteTodo={[MockFunction]}
+    onToggleTodo={[MockFunction]}
+    todo="Comprar pan"
+  />
+  <TodoListItem
+    done={false}
+    id={2}
+    key="2"
+    onDeleteTodo={[MockFunction]}
+    onToggleTodo={[MockFunction]}
+    todo="Ir al colegio"
+  />
+</ul>
+`;

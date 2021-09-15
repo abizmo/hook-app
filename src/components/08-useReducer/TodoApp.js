@@ -25,18 +25,14 @@ const TodoApp = () => {
     payload: id
   })
 
-  const handleSubmit = (todo) => {
-    const newTodo = {
-      id: new Date().getTime(),
-      todo,
-      done: false,     
-    }
-
-    dispatch({
-      type: 'ADD_TODO',
-      payload: newTodo,
-    })
-  }
+  const handleSubmit = (todo) => dispatch({
+    type: 'ADD_TODO',
+    payload: {
+    id: new Date().getTime(),
+    todo,
+    done: false,     
+  }})
+  
 
   return (
     <div className="container pt-3">

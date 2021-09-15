@@ -39,7 +39,7 @@ const TodoAddForm = ({ onAddTodo }) => {
 }
 
 TodoAddForm.propTypes = {
-  onSubmit: PropTypes.func.isRequired,
+  onAddTodo: PropTypes.func.isRequired,
 }
 
 export default TodoAddForm

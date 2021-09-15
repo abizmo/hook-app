@@ -51,7 +51,7 @@ describe('todosReducer tests', () => {
     const state = todoReducer(demoTodos, action)
 
     expect(state).toHaveLength(2)
-    expect(state.filter(todo => todo.done)).toHaveLength(1)
+    expect(state.filter(todo => todo.done)).toHaveLength(2)
   })
   
   

@@ -24,7 +24,7 @@ TodoList.propTypes = {
   onDeleteTodo: PropTypes.func.isRequired,
   onToggleTodo: PropTypes.func.isRequired,
   todos: PropTypes.arrayOf(PropTypes.shape({
-    done: PropTypes.string.isRequired,
+    done: PropTypes.bool.isRequired,
     id: PropTypes.number.isRequired,
     todo: PropTypes.string.isRequired,
   }))
